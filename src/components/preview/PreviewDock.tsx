@@ -747,7 +747,7 @@ const PreviewDock = ({
                   </TooltipContent>
                 </Tooltip>
               </DockIcon>
-              <DockIcon>
+              {/* <DockIcon>
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <button
@@ -765,7 +765,7 @@ const PreviewDock = ({
                     <p>{t("github")}</p>
                   </TooltipContent>
                 </Tooltip>
-              </DockIcon>
+              </DockIcon> */}
             </div>
           </Dock>
         </TooltipProvider>
