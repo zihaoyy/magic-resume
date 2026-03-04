@@ -43,3 +43,5 @@ src/routeTree.gen.ts
 .history
 .agent
 .tanstack
+# Local Netlify folder
+.netlify

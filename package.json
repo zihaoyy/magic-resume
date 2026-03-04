@@ -9,7 +9,9 @@
     "build": "vite build",
     "start": "node server.mjs",
     "preview": "vite preview",
-    "release": "bumpp"
+    "release": "bumpp",
+    "deploy": "pnpm build && netlify deploy",
+    "deploy:prod": "pnpm build && netlify deploy --prod"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -99,6 +101,8 @@
     "typescript": "^5",
     "vite": "^7.3.1",
     "vite-tsconfig-paths": "^6.1.1",
-    "wrangler": "^4.19.1"
+    "wrangler": "^4.19.1",
+    "@netlify/vite-plugin-tanstack-start": "^1.2.9",
+    "netlify-cli": "^22.0.0"
   }
 }
